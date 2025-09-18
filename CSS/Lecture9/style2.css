@@ -1,0 +1,29 @@
+.parent{
+    border:2px solid black;
+    height:506px;
+    width:1000px;
+    margin-top:100px;
+    margin-left:200px;
+    background-color:rgb(234, 201, 81);
+}
+.img{
+    float:left;
+    border:2px solid blue;
+    height:250px;
+    width:250px;
+    margin-left:20px;
+    margin-top:60px;
+    background-image:url("https://i.pinimg.com/736x/ca/97/54/ca9754bb901bbda08663cb3f808dc072.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.text{
+    margin-top:28px;
+    height:200px;
+    width:700px;
+    float:right;
+    margin-right:12px;
+}
+.fix{
+    clear:both;
+}

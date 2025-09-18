@@ -1,0 +1,24 @@
+.parent{
+    border:7px solid black;
+    height:405px;
+    background-color:rgb(10, 242, 126);
+}
+.child1{
+    border:1px solid black;
+    width:49%;
+    height:200px;
+    background-color:cornflowerblue;
+    float:left;
+    margin-left:1px;
+}
+.child2{
+    border:1px solid black;
+    width:49%;
+    height:200px;
+    background-color:yellow;
+    float:right;
+    margin-right:1px;
+}
+.fix{
+    clear:both;
+}

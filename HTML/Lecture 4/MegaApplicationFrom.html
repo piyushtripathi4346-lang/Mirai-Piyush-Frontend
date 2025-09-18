@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML - Only : Mega Application Form</title>
+</head>
+<body>
+    <form action="">
+    <h1>HTML - Only : Mega Application Form</h1>
+    <p><b>Rules :</b>Use only valid inputs. All starred fields are required. Read <i>titles</i> for hints . No JavaScript.</p>
+    <fieldset>
+    <legend>Account</legend>
+    <lable for=""><sup>*</sup>Username</lable> <br> <input type="text"> <br> <lable for=""><sup>*</sup>Password</lable> <br> <input type="text"> <br> <lable for=""><sup>*</sup>Applying as</sup></lable>
+    <br> <select name="" id="">
+        <option value="" disabled selected>Choose one</option>
+        <option>1 st Year</option>
+        <option>2 nd Year</option>
+        <option>3 rd Year</option>
+        <option>4 th Year</option>
+    </select> 
+    </fieldset>
+     <fieldset>
+    <legend>Personal Information</legend>
+    <lable for=""><sup>*</sup>Full Name</lable> <br> <input type="text"> <br> <lable for=""><sup>*</sup>Date Of Birth</lable> <br> <input type="date"> <br> <lable for=""><sup>*</sup>Gender</sup></lable> <br> <input type="radio"> <lable for="">Female</lable> <br> <input type="radio"> <lable for="">Male</lable> <br> <input type="radio"> <lable for="">Other</lable>
+    <br> <label for="">Govt ID (PAN format)</label> <br> <input type="text" placeholder="ABCDE 1234F">
+    </select> 
+    </fieldset>
+    <fieldset>
+        <legend>Contact & Address</legend>
+        <lable for=""><sup>*</sup>Email</lable> <br> <input type="text" placeholder="you.example@gmail.com"> <br> <lable for=""><sup>*</sup>Phone(India)</lable> <br> <input type="text" placeholder="+91 9XXXXXXXXX"> <br> <lable for="">Profile URL (HTTPs ONLY)</lable> <br> <input type="text" placeholder="https://example.com"> <br> <lable for=""><sup>*</sup>Country</lable> <br> <input type="text"> <br> <lable for="">State/UT(India)</lable> <br> <input type="text" placeholder="e.g.,Maharashtra"> <br> <lable for="">PIN Code</lable> <br> <input type="text" placeholder="6-digit PIN"> <br> <lable for=""><sup>*</sup>Address</lable> <br> <input type="text" placeholder="Flat/House no. , street, area">
+        <br> <lable for=""><sup>*</sup>Address</lable> <br> <textarea name="" id="" rows="10px" cols="10px"></textarea> <br> 
+            </fieldset>
+    <fieldset>
+        <legend>Education & Skills</legend>
+        <lable for=""><sup>*</sup>Heighest Qualification</lable> <br>
+        <select>
+            <option value="" disabeled selected>Select one</option>
+            <option>BBA</option>
+            <option>BCA</option>
+            <option>MBA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>BE</option>
+        </select> <br>
+        <lable for="">CGPA(0-10)</lable> <br> <input type="text" placeholder="e.g. 8.23"> <br> <lable for=""><sup>*</sup>Primary Skills</lable> <br> <input type="text"> <br> <lable for="">Other Skills</lable> <br> 
+        <div style="width:100px; height:50px; border:1px solid black; overflow-y:scroll;">
+  <p>HTML</p>
+  <p>CSS</p>
+  <p>JAVA</p>
+  <p>React.js</p>
+</div> <br>
+        <lable for="">Quick add via list</lable> <br>
+        <input type="text" placeholder="Start typing a skill">
+        <fieldset>
+        <legend>Avialbility & Preferences</legend>
+        <lable for=""><sup>*</sup>Earliest Start Date</lable> <br> <input for="" type="date"> <br> <lable for="">Prefered Interview Time</lable> <br> <input type="time"> <br> <lable for="">Time Zone</lable> <br> 
+        <select>
+           <option value="" disabled slected>select one</option>
+           <option>Asia/kolkata(IST)</option>
+           <option>America</option>
+           <option>Japan</option>
+        </select>
+        <br>
+        <label for="">Brand Colour Preference</label> <br> <input type="color" value="#007bff">
+        <br>
+        <label for="">Expected CTC (Lakhs/Year)</label> <br> <input type="range">
+         <p>(we know you want 1 cpa😎)</p>
+    </fieldset>
+    <fieldset>
+        <legend>Document</legend>
+        <label for=""><sup>*</sup>Upload Resume(PDF)</label> <br> <input type="file"> <br>
+        <label for="">Profile Photo (JPG/PNG)</label> <br> <input type="file"> <br>
+    </fieldset>
+    <fieldset>
+        <legend>Short Answer</legend>
+        <label for=""><sup>*</sup>Why should we consider you?</label> <br> <textarea name="" id="" rows="10px" cols="20px" placeholder="Write at least 30 characters..."></textarea> <br> <label for="">Referral Code (pattern: ABC-1234)</label> <br>
+        <input type="text" plceholder="ABC-1234">
+    </fieldset>
+    <details>
+    <summary>Operational Survey (Expand)</summary>
+    </details>
+    <input type="checkbox" name="programming"> <label> <sup>*</sup>I confirm all Information is accurate and I accept all terms</label> <br>
+    <button type="submit">Submit Application</button><button type="submit">Reset</button>
+    </form>
+</body>
+</html>

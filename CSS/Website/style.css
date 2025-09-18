@@ -1,0 +1,15 @@
+nav{
+    border:2px solid grey;
+    margin:auto;
+    height:20px;
+}
+a{
+    padding-bottom:0.4px;
+    border: 1px solid brown;
+    background-color:aqua;
+    border-radius:30%;
+}
+*{
+    background-color:bisque;
+    border:1px solid black;
+}
